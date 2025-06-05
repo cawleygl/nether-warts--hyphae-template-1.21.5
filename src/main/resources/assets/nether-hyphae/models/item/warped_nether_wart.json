@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "nether-hyphae:item/warped_nether_wart"
+  }
+}

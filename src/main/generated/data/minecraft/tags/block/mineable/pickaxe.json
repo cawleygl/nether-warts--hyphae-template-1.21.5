@@ -1,0 +1,17 @@
+{
+  "values": [
+    "nether-hyphae:blue_nether_bricks",
+    "nether-hyphae:blue_nether_brick_slab",
+    "nether-hyphae:blue_nether_brick_stairs",
+    "nether-hyphae:blue_nether_brick_fence",
+    "nether-hyphae:red_nether_brick_fence",
+    "nether-hyphae:black_nether_bricks",
+    "nether-hyphae:black_nether_brick_slab",
+    "nether-hyphae:black_nether_brick_stairs",
+    "nether-hyphae:black_nether_brick_fence",
+    "nether-hyphae:glow_nether_bricks",
+    "nether-hyphae:glow_nether_brick_slab",
+    "nether-hyphae:glow_nether_brick_stairs",
+    "nether-hyphae:glow_nether_brick_fence"
+  ]
+}

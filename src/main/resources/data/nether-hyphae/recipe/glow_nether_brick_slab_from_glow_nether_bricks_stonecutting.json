@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "nether-hyphae:glow_nether_bricks",
+  "result": {
+    "count": 2,
+    "id": "nether-hyphae:glow_nether_brick_slab"
+  }
+}

@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "nether-hyphae",
+	"version": "1.0.0",
+	"name": "Nether Warts & Hyphae",
+	"description": "Rearranges Nether Wart blocks, new warped nether warts, and a new leaf block for Nether fungus trees",
+	"authors": [
+		"BlueSteel42"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/nether-hyphae/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"bluesteel42.netherhyphae.NetherWartsHyphae"
+		],
+		"client": [
+			"bluesteel42.netherhyphae.NetherWartsHyphaeClient"
+		],
+		"fabric-datagen": [
+			"bluesteel42.netherhyphae.NetherWartsHyphaeDataGenerator"
+		]
+	},
+	"mixins": [
+		"nether-hyphae.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "nether-hyphae:block/warped_nether_wart_stage2"
+  }
+}

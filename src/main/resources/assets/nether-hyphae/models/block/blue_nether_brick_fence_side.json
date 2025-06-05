@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_side",
+  "textures": {
+    "texture": "nether-hyphae:block/blue_nether_bricks"
+  }
+}

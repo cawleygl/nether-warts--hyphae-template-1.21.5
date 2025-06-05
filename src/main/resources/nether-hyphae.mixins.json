@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "bluesteel42.netherhyphae.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"WarpedNetherWartsInFortressesMixin",
+		"HugeFungusHatGenerationMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

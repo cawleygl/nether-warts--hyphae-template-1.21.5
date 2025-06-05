@@ -1,0 +1,9 @@
+// 1.21.5	-999999999-01-01T00:00:00	Nether Warts & Hyphae/Model Definitions
+2e2fc61c5bc89c3297c1996c83ccc6269b827abd assets/nether-hyphae/blockstates/crimson_fungus_block.json
+73565362f2c3baa809d293cb0b9fbe2e8e146250 assets/nether-hyphae/blockstates/warped_fungus_block.json
+6113e20a65f72f535df73b28f920c4f2b78f5528 assets/nether-hyphae/items/crimson_fungus_block.json
+d24d16fd24924b69af4f2e059fe9fbe945c93dcf assets/nether-hyphae/items/warped_fungus_block.json
+9877081a9cb0dca9a6fe7314200dbc6cd9aab6dd assets/nether-hyphae/models/block/crimson_fungus_block.json
+50d8a02940b9e39bad1a14f3a77ea3e484a11674 assets/nether-hyphae/models/block/crimson_fungus_block_inventory.json
+dddebeb5283d5302ecb7112a36a100f82289686a assets/nether-hyphae/models/block/warped_fungus_block.json
+66056e5480dd190c2049d327983d2ce27db4286f assets/nether-hyphae/models/block/warped_fungus_block_inventory.json

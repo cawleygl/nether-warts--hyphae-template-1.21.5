@@ -1,0 +1,25 @@
+{
+  "block.nether-hyphae.crimson_fungus_block": "Crimson Fungus Block",
+  "block.nether-hyphae.warped_fungus_block": "Warped Fungus Block",
+  "block.nether-hyphae.warped_nether_wart": "Warped Nether Wart",
+
+  "block.nether-hyphae.blue_nether_bricks": "Blue Nether Bricks",
+  "block.nether-hyphae.blue_nether_brick_stairs": "Blue Nether Brick Stairs",
+  "block.nether-hyphae.blue_nether_brick_slab": "Blue Nether Brick Slab",
+  "block.nether-hyphae.blue_nether_brick_wall": "Blue Nether Brick Wall",
+  "block.nether-hyphae.blue_nether_brick_fence": "Blue Nether Brick Fence",
+
+  "block.nether-hyphae.red_nether_brick_fence": "Red Nether Brick Fence",
+
+  "block.nether-hyphae.black_nether_bricks": "Black Nether Bricks",
+  "block.nether-hyphae.black_nether_brick_stairs": "Black Nether Brick Stairs",
+  "block.nether-hyphae.black_nether_brick_slab": "Black Nether Brick Slab",
+  "block.nether-hyphae.black_nether_brick_wall": "Black Nether Brick Wall",
+  "block.nether-hyphae.black_nether_brick_fence": "Black Nether Brick Fence",
+
+  "block.nether-hyphae.glow_nether_bricks": "Glow Nether Bricks",
+  "block.nether-hyphae.glow_nether_brick_stairs": "Glow Nether Brick Stairs",
+  "block.nether-hyphae.glow_nether_brick_slab": "Glow Nether Brick Slab",
+  "block.nether-hyphae.glow_nether_brick_wall": "Glow Nether Brick Wall",
+  "block.nether-hyphae.glow_nether_brick_fence": "Glow Nether Brick Fence"
+}
