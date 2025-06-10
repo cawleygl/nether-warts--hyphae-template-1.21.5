@@ -1,6 +1,7 @@
 package bluesteel42.netherhyphae;
 
 import bluesteel42.netherhyphae.block.ModBlocks;
+import bluesteel42.netherhyphae.potion.ModPotions;
 import bluesteel42.netherhyphae.registries.ModRegistries;
 import net.fabricmc.api.ModInitializer;
 
@@ -21,6 +22,8 @@ public class NetherWartsHyphae implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 		ModBlocks.initialize();
+		ModPotions.registerPotions();
+		ModPotions.registerPotionsRecipes();
 		ModRegistries.registerCompostables();
 
 		LOGGER.info("Hello Fabric world!");

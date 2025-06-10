@@ -17,7 +17,17 @@ import net.minecraft.util.Identifier;
 import java.util.function.Function;
 
 public class ModBlocks {
-    public static final Block CRIMSON_FUNGUS_BLOCK = register("crimson_fungus_block", MushroomBlock::new, AbstractBlock.Settings.create().mapColor(MapColor.RED).instrument(NoteBlockInstrument.BASS).strength(1.0F).sounds(BlockSoundGroup.NETHER_STEM), true, false);
+    public static final Block CRIMSON_FUNGUS_BLOCK = register(
+            "crimson_fungus_block",
+            MushroomBlock::new,
+            AbstractBlock.Settings.create()
+                    .mapColor(MapColor.RED)
+                    .instrument(NoteBlockInstrument.BASS)
+                    .strength(1.0F)
+                    .sounds(BlockSoundGroup.NETHER_STEM)
+                    .luminance(state -> 1),
+            true,
+            false);
     public static final Block WARPED_FUNGUS_BLOCK = register("warped_fungus_block", MushroomBlock::new, AbstractBlock.Settings.create().mapColor(MapColor.BRIGHT_TEAL).instrument(NoteBlockInstrument.BASS).strength(1.0F).sounds(BlockSoundGroup.NETHER_STEM), true, false);
 
     public static final Block WARPED_NETHER_WART = register("warped_nether_wart", WarpedNetherWartBlock::new, AbstractBlock.Settings.create().mapColor(MapColor.BRIGHT_TEAL).noCollision().ticksRandomly().sounds(BlockSoundGroup.NETHER_WART).pistonBehavior(PistonBehavior.DESTROY), true, true);
