@@ -24,8 +24,7 @@ public class ModBlocks {
                     .mapColor(MapColor.RED)
                     .instrument(NoteBlockInstrument.BASS)
                     .strength(1.0F)
-                    .sounds(BlockSoundGroup.NETHER_STEM)
-                    .luminance(state -> 1),
+                    .sounds(BlockSoundGroup.NETHER_STEM),
             true,
             false);
     public static final Block WARPED_FUNGUS_BLOCK = register("warped_fungus_block", MushroomBlock::new, AbstractBlock.Settings.create().mapColor(MapColor.BRIGHT_TEAL).instrument(NoteBlockInstrument.BASS).strength(1.0F).sounds(BlockSoundGroup.NETHER_STEM), true, false);
