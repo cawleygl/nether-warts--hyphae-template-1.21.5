@@ -4,7 +4,6 @@ import bluesteel42.netherhyphae.block.ModBlocks;
 import bluesteel42.netherhyphae.block.WarpedNetherWartBlock;
 import net.minecraft.block.*;
 import net.minecraft.particle.ParticleTypes;
-import net.minecraft.particle.ParticleUtil;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
