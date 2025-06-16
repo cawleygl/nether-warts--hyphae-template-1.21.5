@@ -3,7 +3,11 @@ package bluesteel42.netherhyphae.mixin;
 import bluesteel42.netherhyphae.block.ModBlocks;
 import bluesteel42.netherhyphae.block.WarpedNetherWartBlock;
 import net.minecraft.block.*;
+import net.minecraft.particle.ParticleTypes;
+import net.minecraft.particle.ParticleUtil;
 import net.minecraft.server.world.ServerWorld;
+import net.minecraft.sound.SoundCategory;
+import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.random.Random;
 import org.spongepowered.asm.mixin.Mixin;
@@ -29,10 +33,11 @@ public class WarpGrowingNetherWartMixin {
             && (world.getBlockState(pos.up()).isOf(Blocks.WARPED_STEM) || world.getBlockState(pos.up()).isOf(Blocks.WARPED_HYPHAE) || world.getBlockState(pos.up()).isOf(ModBlocks.WARPED_FUNGUS_BLOCK) || world.getBlockState(pos.up()).isOf(Blocks.WARPED_WART_BLOCK))
         ) {
             state = ModBlocks.WARPED_NETHER_WART.getDefaultState().with(WarpedNetherWartBlock.AGE, i);
+            world.spawnParticles(ParticleTypes.WARPED_SPORE, pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5, 50, 0.25, 0.25, 0.25, 0.001);
+            world.playSound(null, pos, SoundEvents.BLOCK_STEM_STEP, SoundCategory.BLOCKS, 1.0f, 1.0f);
             world.setBlockState(pos, state, Block.NOTIFY_LISTENERS);
             ci.cancel();
         }
     }
-
 }
 
