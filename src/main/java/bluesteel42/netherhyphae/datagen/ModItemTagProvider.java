@@ -15,21 +15,21 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
-        getOrCreateTagBuilder(ItemTags.WART_BLOCKS).add(ModBlocks.CRIMSON_FUNGUS_BLOCK.asItem());
-        getOrCreateTagBuilder(ItemTags.WART_BLOCKS).add(ModBlocks.WARPED_FUNGUS_BLOCK.asItem());
+        valueLookupBuilder(ItemTags.WART_BLOCKS).add(ModBlocks.CRIMSON_FUNGUS_BLOCK.asItem());
+        valueLookupBuilder(ItemTags.WART_BLOCKS).add(ModBlocks.WARPED_FUNGUS_BLOCK.asItem());
 
-        getOrCreateTagBuilder(ItemTags.SLABS).add(ModBlocks.BLUE_NETHER_BRICK_SLAB.asItem());
-        getOrCreateTagBuilder(ItemTags.STAIRS).add(ModBlocks.BLUE_NETHER_BRICK_STAIRS.asItem());
-        getOrCreateTagBuilder(ItemTags.WALLS).add(ModBlocks.BLUE_NETHER_BRICK_WALL.asItem());
-        getOrCreateTagBuilder(ItemTags.FENCES).add(ModBlocks.BLUE_NETHER_BRICK_FENCE.asItem());
-        getOrCreateTagBuilder(ItemTags.SLABS).add(ModBlocks.BLACK_NETHER_BRICK_SLAB.asItem());
-        getOrCreateTagBuilder(ItemTags.STAIRS).add(ModBlocks.BLACK_NETHER_BRICK_STAIRS.asItem());
-        getOrCreateTagBuilder(ItemTags.WALLS).add(ModBlocks.BLACK_NETHER_BRICK_WALL.asItem());
-        getOrCreateTagBuilder(ItemTags.FENCES).add(ModBlocks.BLACK_NETHER_BRICK_FENCE.asItem());
-        getOrCreateTagBuilder(ItemTags.SLABS).add(ModBlocks.GLOW_NETHER_BRICK_SLAB.asItem());
-        getOrCreateTagBuilder(ItemTags.STAIRS).add(ModBlocks.GLOW_NETHER_BRICK_STAIRS.asItem());
-        getOrCreateTagBuilder(ItemTags.WALLS).add(ModBlocks.GLOW_NETHER_BRICK_WALL.asItem());
-        getOrCreateTagBuilder(ItemTags.FENCES).add(ModBlocks.GLOW_NETHER_BRICK_FENCE.asItem());
-        getOrCreateTagBuilder(ItemTags.FENCES).add(ModBlocks.RED_NETHER_BRICK_FENCE.asItem());
+        valueLookupBuilder(ItemTags.SLABS).add(ModBlocks.BLUE_NETHER_BRICK_SLAB.asItem());
+        valueLookupBuilder(ItemTags.STAIRS).add(ModBlocks.BLUE_NETHER_BRICK_STAIRS.asItem());
+        valueLookupBuilder(ItemTags.WALLS).add(ModBlocks.BLUE_NETHER_BRICK_WALL.asItem());
+        valueLookupBuilder(ItemTags.FENCES).add(ModBlocks.BLUE_NETHER_BRICK_FENCE.asItem());
+        valueLookupBuilder(ItemTags.SLABS).add(ModBlocks.BLACK_NETHER_BRICK_SLAB.asItem());
+        valueLookupBuilder(ItemTags.STAIRS).add(ModBlocks.BLACK_NETHER_BRICK_STAIRS.asItem());
+        valueLookupBuilder(ItemTags.WALLS).add(ModBlocks.BLACK_NETHER_BRICK_WALL.asItem());
+        valueLookupBuilder(ItemTags.FENCES).add(ModBlocks.BLACK_NETHER_BRICK_FENCE.asItem());
+        valueLookupBuilder(ItemTags.SLABS).add(ModBlocks.GLOW_NETHER_BRICK_SLAB.asItem());
+        valueLookupBuilder(ItemTags.STAIRS).add(ModBlocks.GLOW_NETHER_BRICK_STAIRS.asItem());
+        valueLookupBuilder(ItemTags.WALLS).add(ModBlocks.GLOW_NETHER_BRICK_WALL.asItem());
+        valueLookupBuilder(ItemTags.FENCES).add(ModBlocks.GLOW_NETHER_BRICK_FENCE.asItem());
+        valueLookupBuilder(ItemTags.FENCES).add(ModBlocks.RED_NETHER_BRICK_FENCE.asItem());
     }
 }

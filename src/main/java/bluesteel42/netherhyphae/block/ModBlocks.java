@@ -1,12 +1,12 @@
 package bluesteel42.netherhyphae.block;
 
 import bluesteel42.netherhyphae.NetherWartsHyphae;
-import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
+import net.fabricmc.fabric.api.client.rendering.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
 import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.block.piston.PistonBehavior;
-import net.minecraft.client.render.RenderLayer;
+import net.minecraft.client.render.BlockRenderLayer;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.item.Items;
 import net.minecraft.registry.RegistryKey;
@@ -138,7 +138,7 @@ public class ModBlocks {
         }
 
         if (nonOpaqueBlock) {
-            BlockRenderLayerMap.INSTANCE.putBlock(block, RenderLayer.getCutout());
+            BlockRenderLayerMap.putBlock(block, BlockRenderLayer.CUTOUT);
         }
 
         return block;
