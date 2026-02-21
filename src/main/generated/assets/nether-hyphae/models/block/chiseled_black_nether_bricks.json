@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "nether-hyphae:block/chiseled_black_nether_bricks"
+  }
+}

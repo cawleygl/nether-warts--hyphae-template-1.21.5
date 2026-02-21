@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "nether_brick_stairs",
+  "key": {
+    "#": "nether-hyphae:red_nether_bricks"
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "nether-hyphae:red_nether_brick_stairs"
+  }
+}

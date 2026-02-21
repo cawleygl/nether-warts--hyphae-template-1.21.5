@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "nether_bricks",
+  "key": {
+    "N": "minecraft:nether_brick",
+    "W": "nether-hyphae:warped_nether_wart"
+  },
+  "pattern": [
+    "NW",
+    "WN"
+  ],
+  "result": {
+    "count": 1,
+    "id": "nether-hyphae:blue_nether_bricks"
+  }
+}

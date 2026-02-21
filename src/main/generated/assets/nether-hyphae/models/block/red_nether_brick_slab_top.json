@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "nether-hyphae:block/red_nether_bricks",
+    "side": "nether-hyphae:block/red_nether_bricks",
+    "top": "nether-hyphae:block/red_nether_bricks"
+  }
+}

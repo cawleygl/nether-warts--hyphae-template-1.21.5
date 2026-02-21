@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_glow_nether_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "nether-hyphae:glow_nether_bricks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "nether-hyphae:chiseled_glow_nether_bricks_from_glow_nether_bricks_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_glow_nether_bricks"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "nether-hyphae:chiseled_glow_nether_bricks_from_glow_nether_bricks_stonecutting"
+    ]
+  }
+}

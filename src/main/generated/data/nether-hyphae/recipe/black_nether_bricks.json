@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "nether_bricks",
+  "key": {
+    "N": "minecraft:nether_brick",
+    "W": "minecraft:flint"
+  },
+  "pattern": [
+    "NW",
+    "WN"
+  ],
+  "result": {
+    "count": 1,
+    "id": "nether-hyphae:black_nether_bricks"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": "nether-hyphae:blue_nether_bricks",
+  "result": {
+    "id": "nether-hyphae:cracked_blue_nether_bricks"
+  }
+}

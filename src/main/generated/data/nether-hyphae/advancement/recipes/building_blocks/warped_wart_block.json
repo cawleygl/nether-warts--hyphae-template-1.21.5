@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "nether-hyphae:warped_wart_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_warped_nether_wart": {
+      "conditions": {
+        "items": [
+          {
+            "items": "nether-hyphae:warped_nether_wart"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_warped_nether_wart"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "nether-hyphae:warped_wart_block"
+    ]
+  }
+}

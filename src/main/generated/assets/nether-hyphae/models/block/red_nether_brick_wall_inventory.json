@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "nether-hyphae:block/red_nether_bricks"
+  }
+}

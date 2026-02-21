@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "nether-hyphae:block/chiseled_glow_nether_bricks"
+  }
+}

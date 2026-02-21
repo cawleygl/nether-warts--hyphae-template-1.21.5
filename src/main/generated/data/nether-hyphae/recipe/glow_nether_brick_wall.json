@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "nether_brick_wall",
+  "key": {
+    "#": "nether-hyphae:glow_nether_bricks"
+  },
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "nether-hyphae:glow_nether_brick_wall"
+  }
+}

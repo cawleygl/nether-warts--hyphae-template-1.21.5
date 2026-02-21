@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "nether_brick_fence",
+  "key": {
+    "#": "minecraft:nether_brick",
+    "W": "nether-hyphae:black_nether_bricks"
+  },
+  "pattern": [
+    "W#W",
+    "W#W"
+  ],
+  "result": {
+    "count": 6,
+    "id": "nether-hyphae:black_nether_brick_fence"
+  }
+}

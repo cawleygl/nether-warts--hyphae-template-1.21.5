@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "nether-hyphae:black_nether_bricks",
+  "result": {
+    "count": 1,
+    "id": "nether-hyphae:chiseled_black_nether_bricks"
+  }
+}

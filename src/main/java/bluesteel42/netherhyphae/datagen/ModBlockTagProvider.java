@@ -20,19 +20,34 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         valueLookupBuilder(BlockTags.WART_BLOCKS).add(ModBlocks.CRIMSON_FUNGUS_BLOCK);
         valueLookupBuilder(BlockTags.WART_BLOCKS).add(ModBlocks.WARPED_FUNGUS_BLOCK);
 
-        valueLookupBuilder(BlockTags.PICKAXE_MINEABLE).add(ModBlocks.BLUE_NETHER_BRICKS);
-        valueLookupBuilder(BlockTags.PICKAXE_MINEABLE).add(ModBlocks.BLUE_NETHER_BRICK_SLAB);
-        valueLookupBuilder(BlockTags.PICKAXE_MINEABLE).add(ModBlocks.BLUE_NETHER_BRICK_STAIRS);
-        valueLookupBuilder(BlockTags.PICKAXE_MINEABLE).add(ModBlocks.BLUE_NETHER_BRICK_FENCE);
+        valueLookupBuilder(BlockTags.PICKAXE_MINEABLE).add(ModBlocks.RED_NETHER_BRICKS);
+        valueLookupBuilder(BlockTags.PICKAXE_MINEABLE).add(ModBlocks.CHISELED_RED_NETHER_BRICKS);
+        valueLookupBuilder(BlockTags.PICKAXE_MINEABLE).add(ModBlocks.CRACKED_RED_NETHER_BRICKS);
+        valueLookupBuilder(BlockTags.PICKAXE_MINEABLE).add(ModBlocks.RED_NETHER_BRICK_STAIRS);
+        valueLookupBuilder(BlockTags.PICKAXE_MINEABLE).add(ModBlocks.RED_NETHER_BRICK_SLAB);
         valueLookupBuilder(BlockTags.PICKAXE_MINEABLE).add(ModBlocks.RED_NETHER_BRICK_FENCE);
+
+        valueLookupBuilder(BlockTags.PICKAXE_MINEABLE).add(ModBlocks.BLUE_NETHER_BRICKS);
+        valueLookupBuilder(BlockTags.PICKAXE_MINEABLE).add(ModBlocks.CHISELED_BLUE_NETHER_BRICKS);
+        valueLookupBuilder(BlockTags.PICKAXE_MINEABLE).add(ModBlocks.CRACKED_BLUE_NETHER_BRICKS);
+        valueLookupBuilder(BlockTags.PICKAXE_MINEABLE).add(ModBlocks.BLUE_NETHER_BRICK_STAIRS);
+        valueLookupBuilder(BlockTags.PICKAXE_MINEABLE).add(ModBlocks.BLUE_NETHER_BRICK_SLAB);
+        valueLookupBuilder(BlockTags.PICKAXE_MINEABLE).add(ModBlocks.BLUE_NETHER_BRICK_FENCE);
+
         valueLookupBuilder(BlockTags.PICKAXE_MINEABLE).add(ModBlocks.BLACK_NETHER_BRICKS);
-        valueLookupBuilder(BlockTags.PICKAXE_MINEABLE).add(ModBlocks.BLACK_NETHER_BRICK_SLAB);
+        valueLookupBuilder(BlockTags.PICKAXE_MINEABLE).add(ModBlocks.CHISELED_BLACK_NETHER_BRICKS);
+        valueLookupBuilder(BlockTags.PICKAXE_MINEABLE).add(ModBlocks.CRACKED_BLACK_NETHER_BRICKS);
         valueLookupBuilder(BlockTags.PICKAXE_MINEABLE).add(ModBlocks.BLACK_NETHER_BRICK_STAIRS);
+        valueLookupBuilder(BlockTags.PICKAXE_MINEABLE).add(ModBlocks.BLACK_NETHER_BRICK_SLAB);
         valueLookupBuilder(BlockTags.PICKAXE_MINEABLE).add(ModBlocks.BLACK_NETHER_BRICK_FENCE);
+
         valueLookupBuilder(BlockTags.PICKAXE_MINEABLE).add(ModBlocks.GLOW_NETHER_BRICKS);
-        valueLookupBuilder(BlockTags.PICKAXE_MINEABLE).add(ModBlocks.GLOW_NETHER_BRICK_SLAB);
+        valueLookupBuilder(BlockTags.PICKAXE_MINEABLE).add(ModBlocks.CHISELED_GLOW_NETHER_BRICKS);
+        valueLookupBuilder(BlockTags.PICKAXE_MINEABLE).add(ModBlocks.CRACKED_GLOW_NETHER_BRICKS);
         valueLookupBuilder(BlockTags.PICKAXE_MINEABLE).add(ModBlocks.GLOW_NETHER_BRICK_STAIRS);
+        valueLookupBuilder(BlockTags.PICKAXE_MINEABLE).add(ModBlocks.GLOW_NETHER_BRICK_SLAB);
         valueLookupBuilder(BlockTags.PICKAXE_MINEABLE).add(ModBlocks.GLOW_NETHER_BRICK_FENCE);
+
         valueLookupBuilder(BlockTags.SLABS).add(ModBlocks.BLUE_NETHER_BRICK_SLAB);
         valueLookupBuilder(BlockTags.SLABS).add(ModBlocks.BLACK_NETHER_BRICK_SLAB);
         valueLookupBuilder(BlockTags.SLABS).add(ModBlocks.GLOW_NETHER_BRICK_SLAB);

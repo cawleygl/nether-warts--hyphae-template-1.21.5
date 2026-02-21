@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:red_nether_bricks"
+  ],
+  "result": {
+    "count": 1,
+    "id": "nether-hyphae:red_nether_bricks"
+  }
+}

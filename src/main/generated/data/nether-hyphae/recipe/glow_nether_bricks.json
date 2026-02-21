@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "nether_bricks",
+  "key": {
+    "N": "minecraft:nether_brick",
+    "W": "minecraft:glowstone_dust"
+  },
+  "pattern": [
+    "NW",
+    "WN"
+  ],
+  "result": {
+    "count": 1,
+    "id": "nether-hyphae:glow_nether_bricks"
+  }
+}
